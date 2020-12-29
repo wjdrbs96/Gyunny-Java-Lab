@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="881f42a5-8534-4c2b-a444-4a5e0c61ff15" name="Default Changelist" comment="" />
+    <list default="true" id="881f42a5-8534-4c2b-a444-4a5e0c61ff15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Java_God/20장/System 클래스.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_God/23장/컬렉션(Set과 Queue).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_God/src/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_God/20장/가장 많이 쓰는 패키지는 자바랭.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java_God/20장/가장 많이 쓰는 패키지는 자바랭.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_God/20장/기본타입 vs 참조타입.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_God/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java_God/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1m45DRkbKFThT9Kf47sCZI2Whdt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,10 +31,15 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -38,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608739902767</updated>
       <workItem from="1608739904227" duration="766000" />
+      <workItem from="1609223160542" duration="1601000" />
     </task>
     <servers />
   </component>
@@ -49,10 +67,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1479" y="133" key="#Project_Structure/-1920.23.1920.1057/-3000.135.1080.1897/0.23.1792.1097@-1920.23.1920.1057" timestamp="1608740576716" />
-    <state x="-1503" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608740312063">
+    <state x="-1503" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609224976520">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1503" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.23.1920.1057/-3000.135.1080.1897/0.23.1792.1097@-1920.23.1920.1057" timestamp="1608740312063" />
+    <state x="-1503" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.23.1920.1057/-3000.135.1080.1897/0.23.1792.1097@-1920.23.1920.1057" timestamp="1609224976520" />
     <state x="-1362" y="40" key="CommitChangelistDialog2" timestamp="1608740189612">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
