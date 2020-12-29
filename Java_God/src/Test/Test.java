@@ -1,12 +1,10 @@
 package Test;
 
-import java.util.HashSet;
+import java.util.Objects;
 
 public class Test {
     public static void main(String[] args) {
-        HashSet<Integer> set = new HashSet<>();
-
-        set.add(2);
-        System.out.println(set.add(2));
+        Object o = new Object();
+        System.out.println(Objects.hashCode(o));
     }
 }
