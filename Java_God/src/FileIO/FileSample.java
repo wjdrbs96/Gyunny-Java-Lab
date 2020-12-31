@@ -10,7 +10,6 @@ public class FileSample {
         String fileName = "ttt.md";
         //sample.checkFile(pathName, fileName);
         sample.checkPath(pathName);
-
     }
 
     public void checkPath(String pathName) {

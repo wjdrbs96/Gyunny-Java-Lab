@@ -54,7 +54,6 @@ public class ManageTextFile {
         try {
             scanner = new Scanner(file);
             String data = new String(Files.readAllBytes(Paths.get(fileName)));
-
         } catch (FileNotFoundException fnfe) {
             fnfe.printStackTrace();
         } catch (Exception e) {
