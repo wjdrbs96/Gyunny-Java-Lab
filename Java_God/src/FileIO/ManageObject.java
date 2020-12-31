@@ -1,16 +1,15 @@
 package FileIO;
 
-import java.io.FileOutputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 
 public class ManageObject {
     public static void main(String[] args) {
         ManageObject manage = new ManageObject();
         String fullPath = "/Users/choejeong-gyun/Documents/test.md";
 
-
         SerialDTO dto = new SerialDTO("God of Java", 1, true, 100);
         manage.saveObject(fullPath, dto);
+        manage.loadObject(fullPath);
     }
 
     public void saveObject(String fullPath, SerialDTO dto) {
@@ -37,6 +36,35 @@ public class ManageObject {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+            }
+        }
+    }
+
+    public void loadObject(String fullPath) {
+        FileInputStream fis = null;
+        ObjectInputStream ois = null;
+        try {
+            fis = new FileInputStream(fullPath);
+            ois = new ObjectInputStream(fis);
+            Object obj = ois.readObject();
+            SerialDTO dto = (SerialDTO)obj;
+            System.out.println(dto);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (ois != null) {
+                try {
+                    ois.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        if (fis != null) {
+            try {
+                fis.close();
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }

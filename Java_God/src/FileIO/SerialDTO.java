@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class SerialDTO implements Serializable {
     private String booName;
-    private int bookOrder;
+    transient private int bookOrder;
     private boolean bestSeller;
     private long soldPerDay;
 
