@@ -13,4 +13,8 @@ public class TryWithResource {
             exception.printStackTrace();
         }
     }
+
+    public static void main(String[] args) {
+
+    }
 }

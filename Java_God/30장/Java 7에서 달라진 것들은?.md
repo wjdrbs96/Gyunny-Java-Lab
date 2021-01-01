@@ -202,11 +202,10 @@ GenericClass<Integer> generic1 = new <String> GenericClass<Integer>("String");
 
 `reifiable 타입`은 런타임에 타입의 정보가 충분한 타입을 말합니다.
 
-`Non-reifiable 타입`은 타입의 정보가 컴파일타임에서 type erasure의 호출에 의해 정보가 지워진 unbounded wildcard와 같이 정의되지 않은 generic type을 말합니다.
+`Non-reifiable 타입`은 타입의 정보가 컴파일타임에서 [type erasure]()의 호출에 의해 정보가 지워진 unbounded wildcard와 같이 정의되지 않은 generic type을 말합니다.
 
-예를들어, JVM은 런타임에 List<String>, List<Integer> 타입에 대한 차이를 전혀 알지 못합니다. 
+- 타입 제거에 대해서 정리가 필요합니다.
 
-- 정리 필요 
 
 <br>
 
