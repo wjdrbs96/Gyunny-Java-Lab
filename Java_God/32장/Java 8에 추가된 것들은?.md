@@ -270,4 +270,5 @@ sort()의 경우는 단일 쓰레드로 정렬이 되고, parallelSort()는 필�
 (parallelSort()가 CPU를 더 많이 사용할 것입니다.) 책 기준으로 성능 테스트를 해보았을 때 정렬의 개수가 5000개 이하면 큰 차이가 없고 5000개 이상이 되면  
 parallelSort()가 더 빨라진다고 합니다. 
 
-물론 이게 엄청 단순하게 말해서 그렇지 `ForkJoinPool` 관련해 계속 정리하면 알아야 할 것이 많은 것 같습니다. 차근차근 정리해보겠습니다. 
+물론 이게 엄청 단순하게 말해서 그렇지 [ForkJoinPool](https://github.com/wjdrbs96/Gyunny-Java-Lab/blob/master/Java_God/25%EC%9E%A5/fork%20%26%20join%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8D.md) 관련해 계속 정리하면 알아야 할 것이 많은 것 같습니다. 차근차근 정리해보겠습니다. 
+
