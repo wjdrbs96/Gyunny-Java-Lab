@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="881f42a5-8534-4c2b-a444-4a5e0c61ff15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java_God/20장/System 클래스.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_God/23장/컬렉션(Set과 Queue).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_God/src/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_God/src/FileIO/PathsAndFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_God/20장/가장 많이 쓰는 패키지는 자바랭.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java_God/20장/가장 많이 쓰는 패키지는 자바랭.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_God/20장/기본타입 vs 참조타입.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_God/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java_God/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_God/30장/Java 7에서 달라진 것들은?.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java_God/30장/Java 7에서 달라진 것들은?.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,7 @@
       <updated>1608739902767</updated>
       <workItem from="1608739904227" duration="766000" />
       <workItem from="1609223160542" duration="1601000" />
+      <workItem from="1609671146427" duration="1001000" />
     </task>
     <servers />
   </component>
