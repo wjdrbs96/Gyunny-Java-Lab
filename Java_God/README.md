@@ -12,3 +12,4 @@
 - [기타]()
     - [Checked Exception vs UnChecked Exception](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/%EC%B2%B4%ED%81%AC%EC%98%88%EC%99%B8%20vs%20%EC%96%B8%EC%B2%B4%ED%81%AC%EC%98%88%EC%99%B8.md)
     - [throw와 throws의 차이](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/Throw%EC%99%80%20Throws%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
+    - [사용자 정의 예외 만들기](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/UserDefineException.md)
