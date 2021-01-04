@@ -1,25 +1,23 @@
 package Test;
 
-import java.util.Arrays;
-import java.util.concurrent.ThreadLocalRandom;
-
 public class Test {
-    static <T> T[] toArray(T... args) {
-        return args;
-    }
-
-    static <T> T[] pickTwo(T a, T b, T c) {
-        switch (ThreadLocalRandom.current().nextInt(3)) {
-            case 0: return toArray(a, b);
-            case 1: return toArray(a, c);
-            case 2: return toArray(b, c);
-        }
-        throw new AssertionError();
-    }
+    private int x;
+    private int y;
 
     public static void main(String[] args) {
-        String[] strings = pickTwo("규니", "정규니", "규니규니");
+        Object obj = null;
+        System.out.println(obj);
+        System.out.println(obj + " Love you");
+        Test test = new Test();
+        System.out.println(test);
     }
 
+    @Override
+    public String toString() {
+        return "Test{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
 }
 
