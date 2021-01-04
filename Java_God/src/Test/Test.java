@@ -1,13 +1,25 @@
 package Test;
 
 import java.util.Arrays;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Test {
-    public static void main(String[] args) {
-        int[] list = {5, 4, 2, 7, 10, 9, 1, 6, 3, 8};
-
-        Arrays.parallelSort(list);
-        System.out.println(Arrays.toString(list));  // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    static <T> T[] toArray(T... args) {
+        return args;
     }
+
+    static <T> T[] pickTwo(T a, T b, T c) {
+        switch (ThreadLocalRandom.current().nextInt(3)) {
+            case 0: return toArray(a, b);
+            case 1: return toArray(a, c);
+            case 2: return toArray(b, c);
+        }
+        throw new AssertionError();
+    }
+
+    public static void main(String[] args) {
+        String[] strings = pickTwo("규니", "정규니", "규니규니");
+    }
+
 }
 
