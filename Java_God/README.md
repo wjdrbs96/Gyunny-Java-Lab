@@ -10,7 +10,7 @@
 - [27장 : Serializable과 NIO도 살펴 봅시다](https://github.com/wjdrbs96/Gyunny-Java-Lab/tree/master/Java_God/27%EC%9E%A5)
 - [30장 : Java 7에서 달라진 것들은?](https://github.com/wjdrbs96/Gyunny-Java-Lab/blob/master/Java_God/30%EC%9E%A5/Java%207%EC%97%90%EC%84%9C%20%EB%8B%AC%EB%9D%BC%EC%A7%84%20%EA%B2%83%EB%93%A4%EC%9D%80%3F.md)
 - [32장 : Java 8에서 추가된 것들은?](https://github.com/wjdrbs96/Gyunny-Java-Lab/tree/master/Java_God/32%EC%9E%A5)
-- [33장 : Java 8에서 변경된 것들은?]()
+- [33장 : Java 8에서 변경된 것들은?](https://github.com/wjdrbs96/Gyunny-Java-Lab/blob/master/Java_God/33%EC%9E%A5/Java%208%EC%97%90%EC%84%9C%20%EB%B3%80%EA%B2%BD%EB%90%9C%20%EA%B2%83%EB%93%A4%EC%9D%80%3F.md)
 - [기타]()
     - [Checked Exception vs UnChecked Exception](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/%EC%B2%B4%ED%81%AC%EC%98%88%EC%99%B8%20vs%20%EC%96%B8%EC%B2%B4%ED%81%AC%EC%98%88%EC%99%B8.md)
     - [throw와 throws의 차이](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/Throw%EC%99%80%20Throws%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)

@@ -109,12 +109,6 @@ public class Test {
 
 <br>
 
-### `참고하기`
-
-- [람다(Lambda) 보충 정리](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Lambda%20%26%20Stream/Lambda%EB%9E%80%3F.md)
-
-<br>
-
 ## `java.util.functin 패키지`
 
 - `Predicate`
@@ -375,6 +369,7 @@ public class StudentFilterSample {
 
 ## `추가로 참고 하기`
 
+- [람다(Lambda) 정리](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Lambda%20%26%20Stream/Lambda%EB%9E%80%3F.md)
 - [Stream 이란?](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Lambda%20%26%20Stream/Stream.md)
 - [Stream 연산](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Lambda%20%26%20Stream/Stream2.md)
 - [메소드 참조](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Lambda%20%26%20Stream/methodReference.md)
