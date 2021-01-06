@@ -9,7 +9,7 @@
 
 `제네릭`과 `배열`의 차이를 2가지만 간단하게 알아보면서 `소거`방식에 대해 정리해보겠습니다. 
 
-## 첫 번째
+## `첫 번째`
  
 배열은 `공변`이고, 제네릭은 `불공변`입니다. 저번 글에서도 정리한 적이 있는데요 한번 더 정리하고 가겠습니다. 
 
@@ -148,7 +148,7 @@ public class MyComparator implements Comparator {
 
 위와 같이 타입이 소거된 상태로 변할 것입니다. 그리고 Comparator의 compare 메소드의 매개변수 타입은 Object로 바뀔 것입니다.   
 
-이러한 메소드 시그니처 사이에 불일치를 없애기 위해서 컴파일러는 런타임에 해당 제네릭 타입의 타임소거를 위한 `bidge method`를 만들어 줍니다. 
+이러한 메소드 시그니처 사이에 불일치를 없애기 위해서 컴파일러는 런타임에 해당 제네릭 타입의 타임소거를 위한 `bridge method`를 만들어 줍니다. 
 
 ```java
 public class MyComparator implements Comparator<Integer> {
