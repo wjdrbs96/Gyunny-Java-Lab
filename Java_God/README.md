@@ -16,4 +16,6 @@
     - [throw와 throws의 차이](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/Throw%EC%99%80%20Throws%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
     - [사용자 정의 예외 만들기](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/UserDefineException.md)
 - [1주차 과제]()
-    - [BigDecimal이란?]()
+    - [BigDecimal이란?](https://github.com/wjdrbs96/Gyunny-Java-Lab/blob/master/Java_God/1%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C/BigDecimal%EC%9D%B4%EB%9E%80%3F.md)
+    - [String vs StringBuilder vs StringBuffer](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Java_lang/String%20vs%20StringBuffer%20vs%20StringBuilder.md)
+    
