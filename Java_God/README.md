@@ -15,7 +15,9 @@
     - [Checked Exception vs UnChecked Exception](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/%EC%B2%B4%ED%81%AC%EC%98%88%EC%99%B8%20vs%20%EC%96%B8%EC%B2%B4%ED%81%AC%EC%98%88%EC%99%B8.md)
     - [throw와 throws의 차이](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/Throw%EC%99%80%20Throws%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
     - [사용자 정의 예외 만들기](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Exception%20handling/UserDefineException.md)
-- [1주차 과제]()
+- [1주차 과제](https://github.com/wjdrbs96/Gyunny-Java-Lab/tree/master/Java_God/1%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C)
     - [BigDecimal이란?](https://github.com/wjdrbs96/Gyunny-Java-Lab/blob/master/Java_God/1%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C/BigDecimal%EC%9D%B4%EB%9E%80%3F.md)
     - [String vs StringBuilder vs StringBuffer](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Java_lang/String%20vs%20StringBuffer%20vs%20StringBuilder.md)
+    - [ArrayList vs LinkedList](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/ArrayList%20vs%20LinkedList.md)
+    - [인코딩(Encoding) & 디코딩(Decoding)](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Java-Basic/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9D%B8%EC%BD%94%EB%94%A9%2C%20%EB%94%94%EC%BD%94%EB%94%A9.md)
     
