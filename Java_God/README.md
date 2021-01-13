@@ -8,7 +8,7 @@
 - [25장 : 쓰레드는 개발자라면 알아두는 것이 좋아요](https://github.com/wjdrbs96/Gyunny-Java-Lab/tree/master/Java_God/25%EC%9E%A5)
 - [26장 : 파일에 있는 것을 읽고 쓰려면 IO를 알아야죠](https://github.com/wjdrbs96/Gyunny-Java-Lab/tree/master/Java_God/26%EC%9E%A5)
 - [27장 : Serializable과 NIO도 살펴 봅시다](https://github.com/wjdrbs96/Gyunny-Java-Lab/tree/master/Java_God/27%EC%9E%A5)
-- [28징 : 다른 서버로 데이터를 보내려면 어떻게 하면 되나요?]()
+- [28장 : 다른 서버로 데이터를 보내려면 어떻게 하면 되나요?](https://github.com/wjdrbs96/Gyunny-Java-Lab/blob/master/Java_God/28%EC%9E%A5/%EB%8B%A4%EB%A5%B8%20%EC%84%9C%EB%B2%84%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC%20%EB%B3%B4%EB%82%B4%EB%A0%A4%EB%A9%B4%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%ED%95%98%EB%A9%B4%20%EB%90%98%EB%82%98%EC%9A%94%3F.md)
 - [30장 : Java 7에서 달라진 것들은?](https://github.com/wjdrbs96/Gyunny-Java-Lab/blob/master/Java_God/30%EC%9E%A5/Java%207%EC%97%90%EC%84%9C%20%EB%8B%AC%EB%9D%BC%EC%A7%84%20%EA%B2%83%EB%93%A4%EC%9D%80%3F.md)
 - [32장 : Java 8에서 추가된 것들은?](https://github.com/wjdrbs96/Gyunny-Java-Lab/tree/master/Java_God/32%EC%9E%A5)
 - [33장 : Java 8에서 변경된 것들은?](https://github.com/wjdrbs96/Gyunny-Java-Lab/blob/master/Java_God/33%EC%9E%A5/Java%208%EC%97%90%EC%84%9C%20%EB%B3%80%EA%B2%BD%EB%90%9C%20%EA%B2%83%EB%93%A4%EC%9D%80%3F.md)
