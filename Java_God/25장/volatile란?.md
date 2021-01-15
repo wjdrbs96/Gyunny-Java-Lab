@@ -16,6 +16,102 @@
 
 <br>
 
+## `예제 코드`
+
+```java
+public class VolatileSample extends Thread {
+    private double instanceVariable = 0;
+
+    public void setDouble(double value) {
+        this.instanceVariable = value;
+    }
+
+    @Override
+    public void run() {
+        while (instanceVariable == 0) {
+            System.out.println(instanceVariable);
+        }
+    }
+}
+```
+```java
+public class RunVolatile {
+    public static void main(String[] args) {
+        RunVolatile sample = new RunVolatile();
+        sample.runVolatileSample();
+    }
+
+    public void runVolatileSample() {
+        VolatileSample sample = new VolatileSample();
+        sample.start();
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Sleep ended !!!");
+        sample.setDouble(-1);
+        System.out.println("Set value is completed !!!");
+    }
+}
+```
+
+코드의 예상 시나리오는 아래와 같습니다. 
+
+- `sample이라는 VolatileSample 클래스의 객체를 만들어 쓰레드를 시작합니다.`
+- `Thread.sleep() 메소드로 1초 대기 후 instanceVariable 값을 -1로 변경하고 끝냅니다.`
+
+<br>
+
+### `그런데 실제 결과는 어떻게 될까요?` 
+
+값이 -1로 바뀌지 않고 무한루프가 끝나지 않는 결과 나옵니다. 
+
+`결과가 이렇게 나오는 이유가 무엇일까요?`
+
+맨 위의 그림을 보면 알 수 있듯이 `CPU는 각자의 캐시`를 가지고 있습니다. 그런데 위와 같이 반복적으로 참조하게 될 때는 캐시에 넣어놓고 쓰레드가 참조하게 됩니다. 
+
+그런데 main 쓰레드에서 -1로 바꿨기 때문에 `VolatileSample` 쓰레드가 참조하는 캐시는 바뀌지 않습니다. 따라서 while 문이 끝나지 않는 것입니다. 
+
+```
+private volatile double instanceVariable = 0;
+```
+
+이 때 `volatile` 키워드를 선언해주면 됩니다. volatile을 쓰면 캐시가 아닌 메모리에서 값을 읽어오게 됩니다. 
+
+<br>
+
+### `하지만 항상 volatile을 쓰면 안됩니다.`
+
+volatile을 쓰면 성능상으로 저하가 발생하기 때문에 `캐시간의 다른 데이터를 보지 않으면 굳이 volatiole을 쓸 필요가 없습니다.`
+
+```java
+public class VolatileSample extends Thread {
+    private double instanceVariable = 0;
+
+    public void setDouble(double value) {
+        this.instanceVariable = value;
+    }
+
+    @Override
+    public void run() {
+        try {
+            while (instanceVariable == 0) {
+                Thread.sleep(1);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+그래서 run() 메소드에서 1밀리초를 기다리게 했더니 volatile 키워드를 사용하지 않고도 코드가 잘 끝나는 것을 볼 수 있습니다. 
+
+> 데이터가 문제가 있을 때만 volatile 키워드를 사용하면 됩니다. 
+
+<br>
+
 ## `volatile로 long과 double을 원자화하기`
 
 JVM은 데이터를 4byte(32bit)단위로 처리하기 때문에 int와 int보다 작은 타입들은 한 번에 읽거나 쓰는 것이 가능합니다. 즉, 하나의 명령어로 읽거나 쓰기가 가능하다는 뜻입니다. 
