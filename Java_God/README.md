@@ -27,5 +27,4 @@
 - [2주차 정리]()
     - [ArrayDeque란?](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/ArrayDeque%EB%9E%80%3F.md)
     - [Set](https://github.com/wjdrbs96/Today-I-Learn/tree/master/Java/Collection/Set)
-    - [HashMap](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Map/HashMap%EC%9D%B4%EB%9E%80%3F.md)
-    
+    - [Map](https://github.com/wjdrbs96/Today-I-Learn/tree/master/Java/Collection/Map)
