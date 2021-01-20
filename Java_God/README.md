@@ -26,5 +26,6 @@
     - [인코딩(Encoding) & 디코딩(Decoding)](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Java-Basic/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9D%B8%EC%BD%94%EB%94%A9%2C%20%EB%94%94%EC%BD%94%EB%94%A9.md)
 - [2주차 정리]()
     - [ArrayDeque란?](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/ArrayDeque%EB%9E%80%3F.md)
+    - [ArrayList 용량이 꽉찬다면?](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/ArrayList%20vs%20LinkedList.md#add%EB%A5%BC-%ED%86%B5%ED%95%B4%EC%84%9C-arraylist-%EC%9A%A9%EB%9F%89%EC%9D%B4-%EA%BD%89%EC%B0%AC%EB%8B%A4%EB%A9%B4)
     - [Set](https://github.com/wjdrbs96/Today-I-Learn/tree/master/Java/Collection/Set)
     - [Map](https://github.com/wjdrbs96/Today-I-Learn/tree/master/Java/Collection/Map)
