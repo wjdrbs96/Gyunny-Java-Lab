@@ -29,3 +29,5 @@
     - [ArrayList 용량이 꽉찬다면?](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/ArrayList%20vs%20LinkedList.md#add%EB%A5%BC-%ED%86%B5%ED%95%B4%EC%84%9C-arraylist-%EC%9A%A9%EB%9F%89%EC%9D%B4-%EA%BD%89%EC%B0%AC%EB%8B%A4%EB%A9%B4)
     - [Set](https://github.com/wjdrbs96/Today-I-Learn/tree/master/Java/Collection/Set)
     - [Map](https://github.com/wjdrbs96/Today-I-Learn/tree/master/Java/Collection/Map)
+    - [이진트리](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Data_Structrue/Tree/%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC%EB%9E%80%3F.md)
+    - [이진탐색트리](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Data_Structrue/Tree/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89%ED%8A%B8%EB%A6%AC%EB%9E%80%3F.md)
