@@ -31,3 +31,6 @@
     - [Map](https://github.com/wjdrbs96/Today-I-Learn/tree/master/Java/Collection/Map)
     - [이진트리](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Data_Structrue/Tree/%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC%EB%9E%80%3F.md)
     - [이진탐색트리](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Data_Structrue/Tree/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89%ED%8A%B8%EB%A6%AC%EB%9E%80%3F.md)
+- [3주차 정리]()
+    - [Stack 클래스의 단점](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Stack%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%9E%80%3F.md)
+    - [Queue에서 ArrayList 대신 LinkedList를 사용하는 이유](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Queue/Queue%EA%B0%80%20ArrayList%EB%8C%80%EC%8B%A0%20LinkedList%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
