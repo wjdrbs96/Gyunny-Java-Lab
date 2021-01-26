@@ -34,3 +34,7 @@
 - [3주차 정리]()
     - [Stack 클래스의 단점](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Stack%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%9E%80%3F.md)
     - [Queue에서 ArrayList 대신 LinkedList를 사용하는 이유](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Queue/Queue%EA%B0%80%20ArrayList%EB%8C%80%EC%8B%A0%20LinkedList%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
+    - [PriorityQueue란?](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Queue/PriorityQueue%EB%9E%80%3F.md)
+    - [ArrayList와 Vector 차이](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/List/Vector%20vs%20ArrayList%20%EB%9E%80%3F.md)
+    - [equals를 재정의하려거든 hashCode도 재정의해야 하는 이유](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Map/equals%EC%99%80%20hashCode%EB%A5%BC%20%EC%9E%AC%EC%A0%95%EC%9D%98%20%EC%95%88%ED%95%98%EB%A9%B4%3F.md)
+    
