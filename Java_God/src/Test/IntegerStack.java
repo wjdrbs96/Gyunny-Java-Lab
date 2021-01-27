@@ -1,16 +1,10 @@
 package Test;
 
-import java.util.Stack;
+public class IntegerStack {
+    int a;
 
-public class IntegerStack extends Stack<Object> {
 
-    public Integer push(Object value) {
-        return push((Integer) value);
+    public static void main(String[] args) {
+
     }
-
-    public Integer push(Integer value) {
-        super.push(value);
-        return value;
-    }
-
 }

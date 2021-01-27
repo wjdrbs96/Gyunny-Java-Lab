@@ -37,4 +37,5 @@
     - [PriorityQueue란?](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Queue/PriorityQueue%EB%9E%80%3F.md)
     - [ArrayList와 Vector 차이](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/List/Vector%20vs%20ArrayList%20%EB%9E%80%3F.md)
     - [equals를 재정의하려거든 hashCode도 재정의해야 하는 이유](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Map/equals%EC%99%80%20hashCode%EB%A5%BC%20%EC%9E%AC%EC%A0%95%EC%9D%98%20%EC%95%88%ED%95%98%EB%A9%B4%3F.md)
+    - [Properties](https://github.com/wjdrbs96/Today-I-Learn/blob/master/Java/Collection/Map/Properties%EB%9E%80%3F.md)
     
