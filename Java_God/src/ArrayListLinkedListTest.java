@@ -4,8 +4,8 @@ import java.util.List;
 
 public class ArrayListLinkedListTest {
     public static void main(String[] args) {
-        ArrayList al = new ArrayList(2000000);
-        LinkedList ll = new LinkedList();
+        ArrayList al = new ArrayList(2000000);  // 배열
+        LinkedList ll = new LinkedList();                    // 연결리스트
 
         System.out.println("= 순차적으로 추가하기 =");
         System.out.println("ArrayList : " + addl(al));
